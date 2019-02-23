@@ -17,7 +17,7 @@ class LoginForm extends React.Component {
   }
   
   confirmInput = event => {
-    
+    event.preventDefault
   }
 
   render() {
