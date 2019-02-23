@@ -19,7 +19,9 @@ class LoginForm extends React.Component {
   confirmInput = = () => ((this.state.username.length > 0) && (this.state.password.length > 0))
   
   handleSubmit = event => {
-    
+    event.preventDefault() {
+      
+    }
   }
   
   render() {
