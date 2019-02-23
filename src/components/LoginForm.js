@@ -15,6 +15,10 @@ class LoginForm extends React.Component {
       [event.target.name]: event.target.value
     });
   }
+  
+  confirmInput = event => {
+    
+  }
 
   render() {
     return (
