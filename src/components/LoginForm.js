@@ -16,11 +16,10 @@ class LoginForm extends React.Component {
     });
   }
   
-  confirmInput = event => {
-    event.preventDefault()
-    if(this)
-  }
-
+  confirmInput = = () => ((this.state.username.length > 0) && (this.state.password.length > 0))
+  
+  handleSubmit
+  
   render() {
     return (
       <form>
