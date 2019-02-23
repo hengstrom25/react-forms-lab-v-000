@@ -20,7 +20,7 @@ class LoginForm extends React.Component {
   
   handleSubmit = event => {
     event.preventDefault() 
-    if(this.confirmInput)
+    if(this.confirmInput())
   }
   
   render() {
